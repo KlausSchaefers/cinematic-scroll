@@ -1,0 +1,24 @@
+.cinematic-container{
+    border: 1px solid red;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+}
+
+.cinematic-scroll {
+    height: 1000%;
+    border: 1px solid blue;
+}
+
+.cinematic-container::-webkit-scrollbar {
+    display: none;
+}
+
+.cinematic-content{
+    height: 100%;
+    width: 100%;
+    background: green;
+    position: sticky;
+    bottom:0px;
+}
