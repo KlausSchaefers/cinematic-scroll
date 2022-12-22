@@ -1,5 +1,4 @@
 .cinematic-container{
-    border: 1px solid red;
     height: 100%;
     width: 100%;
     overflow: auto;
@@ -8,7 +7,6 @@
 
 .cinematic-scroll {
     height: 1000%;
-    border: 1px solid blue;
 }
 
 .cinematic-container::-webkit-scrollbar {
@@ -18,7 +16,26 @@
 .cinematic-content{
     height: 100%;
     width: 100%;
-    background: green;
+    background: #fff;
     position: sticky;
     bottom:0px;
+
+}
+
+.cinematic-content span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 600;
+    white-space: pre;
+}
+
+.cinematic-content-row{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 4px;
+}
+
+.cinematic-content-strike {
+    text-decoration: line-through;
 }
